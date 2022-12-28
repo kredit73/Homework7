@@ -54,12 +54,12 @@ Console.WriteLine($"{MyLib.DateIndex(matrix)}");
 // 5 9 2 3
 // 8 4 2 4
 // Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
-int[,] matrix = new int[3, 4];
-MyLib.FillArray(matrix);
-MyLib.PrintIntArray(matrix);
+int[,] matr = new int[3, 4];
+MyLib.FillArray(matr);
+MyLib.PrintIntArray(matr);
 
 //Console.WriteLine($"{
-MyLib.MeanColumns(matrix);
+MyLib.MeanColumns(matr);
 
 int x;
 Console.WriteLine($"{MyLib.Inclusion2("adcdf", "fr", out x)}");
